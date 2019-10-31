@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chamber2">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sms_button_2"
+        android:layout_alignTop="@id/textView21"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/sms"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/appointments_are_only_taken_on_thursdays_after_3_pm"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/sms_button_2"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/appointment_button_2"
+        android:layout_alignEnd="@+id/imageView7"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/sms"
+        android:cropToPadding="true"
+        android:tint="@android:color/holo_blue_dark"
+        app:srcCompat="@android:drawable/sym_action_email" />
+
+    <ImageButton
+        android:id="@+id/info_button_2"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/appointment_button_2"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/chamber_info"
+        android:cropToPadding="true"
+        android:tint="@android:color/holo_blue_dark"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="215dp"
+        android:text="@string/ministry_of_health_bangladesh" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:gravity="center"
+        android:text="@string/assistant_professor"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="264dp"
+        android:text="@string/mbbs_m_d_nephrology"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="285dp"
+        android:text="@string/dr_fazla_alahi_khan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="186dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="293dp"
+        android:contentDescription="@string/dr_fazla_alahi_khan"
+        app:srcCompat="@drawable/Dr Fazla Alahi Khan"
+        tools:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:contentDescription="@string/logo_2"
+        app:srcCompat="@mipmap/hospital1__fg" />
+
+    <ImageButton
+        android:id="@+id/appointment_button_2"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="123dp"
+        android:contentDescription="@string/appointment"
+        android:cropToPadding="true"
+        android:tint="@android:color/holo_blue_dark"
+        app:srcCompat="@android:drawable/ic_menu_today" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_button_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/chamber_info"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sms_button_2"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_marginStart="5dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/appointment"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+</RelativeLayout>
